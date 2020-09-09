@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
+  buscarTexto: string;
   constructor(private route: Router) { }
 
   ngOnInit(): void {
